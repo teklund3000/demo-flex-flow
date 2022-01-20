@@ -24,3 +24,13 @@ h2 {
 .content {
     padding: 16px;
 }
+
+.flex-container {
+display: flex;
+flex-flow: row;
+flex-flow: nowrap;
+/* flex direction & flex wrap together in command. 2 properties in flex flow. */
+flex-flow: row nowrap;
+flex-flow: column no-wrap;
+    
+}
